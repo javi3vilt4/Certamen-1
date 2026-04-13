@@ -1,0 +1,34 @@
+
+
+
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #0ab465;
+  padding: 15px 20px;
+  color: rgb(255, 255, 255);
+}
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+.nav-links {
+  display: flex;
+  gap: 20px;
+}
+.nav-links a {
+  color: white;
+  text-decoration: none;
+}
+
+.fondo{
+  display: flex;
+  justify-content: left;
+  background: #cef3d4;
+  padding: 50px;
+  gap: 30px;
+  align-items: left;
+}
+
