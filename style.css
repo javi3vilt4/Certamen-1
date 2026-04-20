@@ -1,0 +1,158 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f8f9fa;
+}
+
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #4ea04e; 
+    padding: 15px 10px;
+    color: white;
+}
+
+.logo {
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.caja {
+    background-color: #447888; 
+    padding: 5px 8px;
+    border-radius: 8px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    margin-left: 15px;
+    font-size: 15px;
+}
+
+
+.hero {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: rgb(156, 233, 156);
+    padding: 60px 10%;
+    color: white;
+}
+
+.hero-content {
+    max-width: 500px;
+}
+
+.hero-content h1 {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.hero-content h1 span {
+    color: #2a9249; 
+}
+
+.hero-content p {
+    margin-top: 20px;
+    font-style: italic;
+    opacity: 0.9;
+}
+
+
+.perfil {
+    width: 200px;
+    height: 200px;
+    background-color: #cbd5e0;
+    border-radius: 50%;
+    border: 8px solid rgba(255, 255, 255, 0.2);
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.perfil img {
+    width: 100%;
+    filter: grayscale(100%);
+}
+
+
+.container {
+    padding: 50px 10%;
+}
+
+.sobre-section {
+    display: flex;
+    gap: 40px;
+}
+
+.sobre-text {
+    flex: 2;
+}
+
+.sobre-text h2 {
+    font-size: 32px;
+    color: #378555;
+    text-align: right; }
+
+.sobre-text .subtitle {
+    text-align: center;
+    color: #000000;
+    margin-bottom: 30px;
+}
+
+.asobre-text p {
+    line-height: 1.6;
+    color: #000000;
+    margin-bottom: 15px;
+}
+
+
+.cita {
+    background-color: #fdf5e6;
+    padding: 20px;
+    border-left: 5px solid #f39c12;
+    margin-top: 30px;
+}
+
+
+.info_personal {
+    flex: 1;
+    background: white;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+    height: fit-content;
+}
+
+.info_personal h3 {
+    color: #1f7c43;
+    margin-bottom: 15px;
+    border-bottom: 2px solid #f8f9fa;
+    padding-bottom: 10px;
+}
+
+.info_personal ul {
+    list-style: none;
+}
+
+.info_personal li {
+    margin-bottom: 12px;
+    font-size: 14px;
+    color: #000000;
+    padding-bottom: 8px;
+}
+
+
